@@ -9,12 +9,23 @@ body {
 h1,
 h2 {
     color: darkred;
+    text-align: center;
 }
 
-h3, 
+h3,
 p,
+ul {
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 li {
     color: green;
+    list-style-type: none;
 }
 
 img {
@@ -39,6 +50,8 @@ nav ul {
 
 nav li {
     display: inline;
+    text-decoration: none;
+    text-align: center;
 }
 
 nav a {
@@ -53,9 +66,8 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 99%;
     height: auto;
-    background-color: white;
 }
 
 #banner img {
@@ -72,13 +84,14 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
     border: 3px solid black;
     width: 100%;
 }
-  
+
 td,
 th {
     border: 1px solid black;
